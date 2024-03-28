@@ -6,8 +6,13 @@ KITTI dataset download
 -------------
 https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 
-Hangul & Anaconda install (Xavier only)
+Anaconda install (Xavier only)
 -------------
 Hardware : Nvidia Jetson Xavier NX (aarch64) / OS : Jetpack 5.0.2-b231 (based on Ubuntu 20.04)
 * * *
-Hangul install - https://velog.io/@yun_in/Ubuntu-Ubuntu-20.04-%ED%95%9C%EA%B8%80-%EC%84%A4%EC%B9%98
+Jetson board 별로 호환이 되는 Anaconda의 버전이 다르기 때문에, 우리는 Mambaforge version을 사용해야함   
+따라서 해당 링크에서 https://github.com/conda-forge/miniforge/releases   
+Mambaforge-23.11.0-0-Linux-aarch64.sh download 받고   
+~$ wget https://github.com/conda-forge/miniforge/releases/download/23.11.0-0/Mambaforge-23.11.0-0-Linux-aarch64.sh   
+~$ sudo chmod 777 Mambaforge-23.11.0-0-Linux-aarch64.sh   
+~$ sudo ./Mambaforge-23.11.0-0-Linux-aarch64.sh
